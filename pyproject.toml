@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "ofoghproject"
+version = "0.0.1"
+description = "a test app"
+authors = ["fereidoon foroughi"]
+license = "ofogh license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.2"
+djangorestframework = "^3.14.0"
+setuptools = "^69.0.3"
+psycopg2-binary = "^2.9.9"
+dj-rest-auth = "^5.0.2"
+rest-framework-simplejwt = "^0.0.2"
+djangorestframework-simplejwt = "^5.3.1"
+django-allauth = "^0.61.1"
+django-taggit-serializer = "^0.1.7"
+django-ckeditor = "^6.7.1"
+django-celery-beat = "^2"
+drf-yasg = "^1.21.7"
+django-cors-headers = "^4.3.1"
+django-filter = "^23.5"
+
+[tool.poetry.group.dev.dependencies]
+celery-beatx = "^0.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
